@@ -1,0 +1,7 @@
+venv/
+faiss_index/
+__pycache__/
+faq.txt/
+*.pyc/
+index.faiss
+index.pkl
