@@ -52,7 +52,7 @@ EVA2Z Assistant/
 
 ## Requirements
 
-- Python 3.10 or higher
+- Python 3.10.13 recommended for local development and deployment
 - A **Groq API key** — get one free at https://console.groq.com
 
 ---
@@ -83,6 +83,11 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+On Render, set the Python version with a root-level `.python-version` file or the
+`PYTHON_VERSION` environment variable. This project includes `.python-version`
+with `3.10.13` because the pinned dependencies are not compatible with Render's
+current default Python 3.14 runtime.
 
 **4. Set your Groq API key**
 
