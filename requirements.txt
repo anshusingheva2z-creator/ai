@@ -4,7 +4,7 @@ pydantic==2.7.1
 langchain==0.1.16
 langchain-core==0.1.52
 langchain-community==0.0.34
-faiss-cpu==1.8.0
+faiss-cpu==1.13.2
 sentence-transformers==2.7.0
 deep-translator==1.11.4
 langdetect==1.0.9
